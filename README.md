@@ -38,3 +38,5 @@ npm start
 * Bootstrap v4: Used for general quick styling
 * YTSearch: Used to make YouTube search queries
 * lodash: Used to debounce and throttle frequency of searching
+* Webpack: Used to compile ES6 to ES5
+* Babel: Used to compile ES6 to ES5
