@@ -1,25 +1,40 @@
-# ReduxSimpleStarter
+# React Simple YouTube Mockup
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+---
 
-### Getting Started
+## Overview
 
-There are two methods for getting started with this repo.
+This is a simple YouTube mockup built using ReactJS and YouTube Data API v3.
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+**Features:**
 
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
+* Users are able to search videos with the search bar
+* Search results are instantly updated with top 5 videos of search term
+* Users can click on a video in the list to have the video embed into the media player
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+## Install
+Move to root project folder and with npm:
 
 ```
-> npm install
-> npm start
+npm install
 ```
+
+## Usage
+**To prepare:**
+
+1. Navigate to `https://console.developers.google.com`
+2. Get API Key for `YouTube Data API v3`
+3. In `index.js`, assign `API_KEY` with your API Key you just got and save the file.
+
+**To run:** Move to root folder and with npm:
+
+```
+npm start
+```
+
+## Details
+**Libraries Used:**
+
+* Bootstrap v4: Used for general quick styling
+* YTSearch: Used to make YouTube search queries
+* lodash: Used to debounce and throttle frequency of searching
